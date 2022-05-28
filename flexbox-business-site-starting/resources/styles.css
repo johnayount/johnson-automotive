@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/caveat/v15/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZz5Kmgq3sw.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/fugazone/v15/rax_HiWKp9EAITukFsl8AxhfsUjQ8Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/creteround/v14/55xqey1sJNPjPiv1ZZZrxK1-4b_oLk5OlKY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    font-size: 16px;
+    font-family: 'Crete Round';
+   
+  
+}
+
+body {
+    opacity: .9
+    
+}
+/* TOP SECITON */
+
+
+header {
+    text-align: center;
+    
+    font-size: 2.7rem;
+   
+    line-height: 20px;
+   
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: red;
+    font-family: 'Fugaz One', sans-serif, serif;
+    font-size: 6rem;
+}
+
+@media only screen and (max-width: 1060px) {
+    header h1 {
+        font-size: 50px;
+    }
+}
+    @media only screen and (max-width: 650px) {
+        header h1 {
+            font-size: 25px;
+        }
+}
+
+header .quote {
+    font-family:'Caveat',sans-serif,serif; 
+  
+}
+/* MISSION STATEMENT */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    border-top:1px solid black;
+}
+
+
+     .nav-container a{
+    color: red;
+    flex-direction: row;
+    font-size: 2.5rem;
+}
+
+.nav-container a:hover {
+    color: black;
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./photos/old-truck-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid white;
+    opacity: 1;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mission-statement {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.mission-quote {
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: 'Caveat',sans-serif,serif;
+    font-size: 1.75rem;
+}
+
+/* SERVICES SECTION */
+
+
+
+    
+
+#service-heading {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    height: 2.5rem;
+    margin-top: 20px;
+}
+.services-container-1 {
+    margin-top: 2rem;
+}
+
+    .services-container-1,
+    .services-container-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: darkgrey;
+        align-items:flex-end;
+        border: 1px solid black;
+        padding: 5px;
+        
+        
+    }
+
+
+img  {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 2px;
+    opacity: .7;
+    width: 500px;
+    height: auto
+
+}
+
+.services-container-1 h3, 
+.services-container-2 h3 {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    border-radius: 2px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    align-items: center;
+  
+}
+
+.schedule h1{
+color: red;
+text-align: center;
+line-height:0;
+
+
+}
+
+.schedule a{
+    color: red;
+    text-align: center;
+    line-height: 0;
+    }
+
+.schedule a:hover {
+    color: black;
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+/* LOCATIONS SECTION  */
+
+#locations h1 {
+    margin-top: 5rem;
+    color: red;
+    text-align: center;
+    font-size:64px;
+    margin-bottom: 25px;
+    line-height:0;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./photos/city.jpeg");
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 160px;
+    border-radius: 2px;
+    opacity: .8;
+   
+}
+
+.location-1,
+.location-2 {
+    text-align: center;
+    line-height: .5rem;
+    color: black;
+    background-color: white;
+    height: 80%;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+/* FOOTER SECTION */
+
+.contact-us {
+    text-align: center;
+}
+
+.copyright {
+    color: gray;
+ 
+}
